@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/9e43c11c75.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Sora:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+      .sora{
+          font-family: "Sora", serif;
+          font-style: normal;
+        }
+      .adlam{
+          font-family: "ADLaM Display", serif;
+           font-style: normal;
+           color: #111111; 
+           font-weight: bold; 
+        }
+        body{
+          background-color: white;
+        }
+        .max{
+          max-width: 1380px;
+        }
+        .height{
+          height: 740px;
+        }
+    </style>
+    <title>Pet Shop</title>
+</head>
+<body>
+    <header>
+      <nav class="bg-[#FFF9F4]">
+        <div class="sora max h-24 flex justify-between text-[#111111] items-center m-auto">
+          <div class="flex items-center justify-between w-56">
+            <img src="c1-assets/logo-header.png" alt="">
+            <p class="text-2xl">Browse<span class="text-[#FFDC26]">4</span>Pets</p>
+          </div>
+          <div>
+            <ul class="flex text-xl w-80 justify-between">
+              <li><a href="">Find a pet</a></li>
+              <li><a href="">Breeds</a></li>
+              <li><a href="">Contact us</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul class="flex text-xl items-center w-80 justify-between">
+              <li><i class="fa-regular fa-bell"></i></li>
+              <li><i class="fa-solid fa-magnifying-glass"></i></li>
+              <li><button class="btn btn-outline btn-warning text-xl">Login</button></li>
+              <li><button class="btn btn-warning text-xl">Register</button></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="max m-auto">
+          <div class="bg-transparent">
+            <h2 class="adlam text-6xl text-[#000000] mt-28">Pamper Your Pet,<br>Because They Deserve <br> the Best</h2>
+            <p class="text-xl sora max-w-2xl text-[rgb(17,17,17,70%)] my-9">Discover a world of treats,toys,and essential handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+            <button class="btn btn-warning text-xl sora">Find a pet</button>
+            <div class="max  bg-[url(c1-assets/cat-big.png)] bg-cover -mt-96 mb-28 ml-16 height"></div>
+          </div>  
+      </div>  
+    </header>
+    <main>
+      <section>
+        <div class="max m-auto my-44">
+          <h2 class="adlam text-4xl my-8 ml-2">Browse By Categories</h2>
+          <div class="flex justify-between flex-wrap">
+            <div class="bg-[#F9DF8A] h-64 w-52 rounded-xl text-center">
+              <div class="h-24 w-24 bg-[#ffffff] p-6 rounded-full m-auto my-8">
+                <img class="h-12 w-12" src="c1-assets/dog-cartoon.png" alt="">
+              </div>
+              <div class="h-14 w-14 mx-auto my-auto">
+                <h4 class="adlam text-xl w-6 h-5 ml-1">Dog</h4>
+                <p class="sora text-xs w-14 h-5 my-4 -ml-2">3 items</p>
+              </div>    
+            </div>
+            <div class="bg-[#F9DF8A] h-64 w-52 rounded-xl text-center">
+              <div class="h-24 w-24 bg-[#ffffff] p-6 rounded-full m-auto my-8">
+                <img class="h-12 w-12" src="c1-assets/fish-cartoon.png" alt="">
+              </div>
+              <div class="h-14 w-14 mx-auto my-auto">
+                <h4 class="adlam text-xl w-6 h-5 ml-1">Fish</h4>
+                <p class="sora text-xs w-14 h-5 my-4 -ml-2">3 items</p>
+              </div>    
+            </div>
+            <div class="bg-[#F9DF8A] h-64 w-52 rounded-xl text-center">
+              <div class="h-24 w-24 bg-[#ffffff] p-6 rounded-full m-auto my-8">
+                <img class="h-12 w-12" src="c1-assets/cat-cartoon.png" alt="">
+              </div>
+              <div class="h-14 w-14 mx-auto my-auto">
+                <h4 class="adlam text-xl w-6 h-5 ml-1">Cat</h4>
+                <p class="sora text-xs w-14 h-5 my-4 -ml-2">3 items</p>
+              </div>    
+            </div>
+            <div class="bg-[#F9DF8A] h-64 w-52 rounded-xl text-center">
+              <div class="h-24 w-24 bg-[#ffffff] p-6 rounded-full m-auto my-8">
+                <img class="h-12 w-12" src="c1-assets/bird-cartoon.png" alt="">
+              </div>
+              <div class="h-14 w-14 mx-auto my-auto">
+                <h4 class="adlam text-xl w-6 h-5 ml-1">Birds</h4>
+                <p class="sora text-xs w-14 h-5 my-4 -ml-2">3 items</p>
+              </div>    
+            </div>
+            <div class="bg-[#F9DF8A] h-64 w-52 rounded-xl text-center">
+              <div class="h-24 w-24 bg-[#ffffff] p-6 rounded-full m-auto my-8">
+                <img class="h-12 w-12" src="c1-assets/mouse-cartoon.png" alt="">
+              </div>
+              <div class="h-14 w-24 mx-auto my-auto">
+                <h4 class="adlam text-xl">Small Pets</h4>
+                <p class="sora text-xs m-auto w-14 h-5 my-2">3 items</p>
+              </div>    
+            </div>
+            <div class="bg-[#F9DF8A] h-64 w-52 rounded-xl text-center">
+              <div class="h-24 w-24 bg-[#ffffff] p-6 rounded-full m-auto my-8">
+                <img class="h-12 w-12" src="c1-assets/rabbit-cartoon.png" alt="">
+              </div>
+              <div class="h-14 w-14 mx-auto my-auto">
+                <h4 class="adlam text-xl w-6 h-5">Rabbit</h4>
+                <p class="sora text-xs w-14 h-5 my-4 -ml-3">2 items</p>
+              </div>    
+            </div>
+          </div>      
+        </div>
+      </section>
+      <section class="w-full bg-[#FFF9F4]">
+        <div class="max m-auto py-24">
+          <div>
+            <h2 class="adlam text-4xl py-14">Trending Pet Products</h2>
+          </div>
+          <div class="flex justify-between">
+            <div class="bg-[#F9DF8A] max-w-xl rounded-xl pl-11">
+              <h2 class="adlam text-3xl pt-14">T-Shirt For Dogs</h2>
+              <p class="sora text-xl max-w-96 mr-8 py-6 text-[rgb(17,17,17, 70%)]">Discover a world of treats, toy and essential handpicked for</p>
+              <button class="btn bg-white border-none sora text-xl text-black px-5">Shop Now</button>
+              <img class="-mt-40 ml-48" src="c1-assets/cute-pet-small.png" alt="">
+            </div>
+            <div class="flex flex-wrap max-w-4xl justify-between">
+              <div class="bg-[#ffffff] w-72 h-32 flex py-6 pl-4 rounded-xl">
+                <div class="w-20 h-20 bg-[#FFF9F4] rounded-xl mr-3">
+                  <img class="h-12 w-12 mt-4 mx-auto" src="c1-assets/pet-couch.png" alt="">
+                </div>
+                <div>
+                  <div class="sora text-[#111111] w-20 h-20 mr-10">
+                    <p class="text-sm"><span><i class="fa-solid fa-star text-[#FFC107]" aria-hidden="true"></i></span> 4.5</p>
+                    <p class="text-xl">Pet bed</p>
+                    <p class="text-sm">$39.99</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-[#ffffff] w-72 h-32 flex py-6 pl-4 rounded-xl">
+                <div class="w-20 h-20 bg-[#FFF9F4] rounded-xl mr-3">
+                  <img class="h-12 w-12 mt-4 mx-auto" src="c1-assets/pet-couch.png" alt="">
+                </div>
+                <div>
+                  <div class="sora text-[#111111] w-20 h-20 mr-10">
+                    <p class="text-sm"><span><i class="fa-solid fa-star text-[#FFC107]" aria-hidden="true"></i></span> 4.5</p>
+                    <p class="text-xl">Pet bed</p>
+                    <p class="text-sm">$39.99</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-[#ffffff] w-72 h-32 flex py-6 pl-4 rounded-xl">
+                <div class="w-20 h-20 bg-[#FFF9F4] rounded-xl mr-3">
+                  <img class="h-12 w-12 mt-4 mx-auto" src="c1-assets/pet-couch.png" alt="">
+                </div>
+                <div>
+                  <div class="sora text-[#111111] w-20 h-20 mr-10">
+                    <p class="text-sm"><span><i class="fa-solid fa-star text-[#FFC107]" aria-hidden="true"></i></span> 4.5</p>
+                    <p class="text-xl">Pet bed</p>
+                    <p class="text-sm">$39.99</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-[#ffffff] w-72 h-32 flex py-6 pl-4 rounded-xl">
+                <div class="w-20 h-20 bg-[#FFF9F4] rounded-xl mr-3">
+                  <img class="h-12 w-12 mt-4 mx-auto" src="c1-assets/pet-couch.png" alt="">
+                </div>
+                <div>
+                  <div class="sora text-[#111111] w-20 h-20 mr-10">
+                    <p class="text-sm"><span><i class="fa-solid fa-star text-[#FFC107]" aria-hidden="true"></i></span> 4.5</p>
+                    <p class="text-xl">Pet bed</p>
+                    <p class="text-sm">$39.99</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-[#ffffff] w-72 h-32 flex py-6 pl-4 rounded-xl">
+                <div class="w-20 h-20 bg-[#FFF9F4] rounded-xl mr-3">
+                  <img class="h-12 w-12 mt-4 mx-auto" src="c1-assets/pet-couch.png" alt="">
+                </div>
+                <div>
+                  <div class="sora text-[#111111] w-20 h-20 mr-10">
+                    <p class="text-sm"><span><i class="fa-solid fa-star text-[#FFC107]" aria-hidden="true"></i></span> 4.5</p>
+                    <p class="text-xl">Pet bed</p>
+                    <p class="text-sm">$39.99</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-[#ffffff] w-72 h-32 flex py-6 pl-4 rounded-xl">
+                <div class="w-20 h-20 bg-[#FFF9F4] rounded-xl mr-3">
+                  <img class="h-12 w-12 mt-4 mx-auto" src="c1-assets/pet-couch.png" alt="">
+                </div>
+                <div>
+                  <div class="sora text-[#111111] w-20 h-20 mr-10">
+                    <p class="text-sm"><span><i class="fa-solid fa-star text-[#FFC107]" aria-hidden="true"></i></span> 4.5</p>
+                    <p class="text-xl">Pet bed</p>
+                    <p class="text-sm">$39.99</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-[#ffffff] w-72 h-32 flex py-6 pl-4 rounded-xl">
+                <div class="w-20 h-20 bg-[#FFF9F4] rounded-xl mr-3">
+                  <img class="h-12 w-12 mt-4 mx-auto" src="c1-assets/pet-couch.png" alt="">
+                </div>
+                <div>
+                  <div class="sora text-[#111111] w-20 h-20 mr-10">
+                    <p class="text-sm"><span><i class="fa-solid fa-star text-[#FFC107]" aria-hidden="true"></i></span> 4.5</p>
+                    <p class="text-xl">Pet bed</p>
+                    <p class="text-sm">$39.99</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-[#ffffff] w-72 h-32 flex py-6 pl-4 rounded-xl">
+                <div class="w-20 h-20 bg-[#FFF9F4] rounded-xl mr-3">
+                  <img class="h-12 w-12 mt-4 mx-auto" src="c1-assets/pet-couch.png" alt="">
+                </div>
+                <div>
+                  <div class="sora text-[#111111] w-20 h-20 mr-10">
+                    <p class="text-sm"><span><i class="fa-solid fa-star text-[#FFC107]" aria-hidden="true"></i></span> 4.5</p>
+                    <p class="text-xl">Pet bed</p>
+                    <p class="text-sm">$39.99</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-[#ffffff] w-72 h-32 flex py-6 pl-4 rounded-xl">
+                <div class="w-20 h-20 bg-[#FFF9F4] rounded-xl mr-3">
+                  <img class="h-12 w-12 mt-4 mx-auto" src="c1-assets/pet-couch.png" alt="">
+                </div>
+                <div>
+                  <div class="sora text-[#111111] w-20 h-20 mr-10">
+                    <p class="text-sm"><span><i class="fa-solid fa-star text-[#FFC107]" aria-hidden="true"></i></span> 4.5</p>
+                    <p class="text-xl">Pet bed</p>
+                    <p class="text-sm">$39.99</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="max m-auto py-24">
+        <div>
+          <h2 class="adlam text-4xl pb-10">Everyday low Price</h2>
+        </div>
+        <div class="flex justify-between">
+          <div class="bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-xl flex max-w-3xl">
+            <div class="h-56 w-72 my-auto ml-20 text-[#111111]">
+              <p class="sora text-xl">Under Price</p>
+              <p class="adlam text-3xl">Pet Grooming Kitt</p>
+              <p class="adlam text-2xl">(Easy Hair Removal)</p>
+              <p class="adlam text-6xl">$7.99</p>
+            </div>
+            <div>
+              <img src="c1-assets/cute-dog-mid.png" alt="">
+            </div>
+          </div>
+          <div class="bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] rounded-xl w-xl flex">
+            <div class="py-12 pl-12 pr-40">
+              <p class="adlam text-3xl w-96 pr-40">T-Shirt for Dogs</p>
+              <p class="adlam text-6xl text-[#FFDC26]">$7.99</p>
+            </div>
+            <img class="absolute ml-72 mt-20" src="c1-assets/cute-pet-mid.png" alt="">
+          </div>
+        </div>
+        
+          
+        </div>
+        <div>
+
+        </div>
+      </section>
+      <section class="relative mt-20 -mb-72 mx-auto">
+        <div class="max m-auto flex bg-[#FFF9F4] rounded-2xl">
+          <div>
+            <img class="py-20 ml-24" src="c1-assets/cute-pet-mid.png" alt="">
+          </div>
+          <div class="py-28 pl-24">
+            <p class="adlam text-4xl">Get Awsome News!</p>
+            <p class="sora text-xl text-black py-5">Exclusive training tips, ticks, product deals and more.</p>
+            <input class="bg-white h-16 w-96 rounded-ss-lg pl-5" type="email" placeholder="Enter email......"><br>
+            <div class="py-5 text-xl sora"><button class="btn btn-warning py">Subscribe</button></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[rgb(255,220,38,50%)]">
+      <div class="max m-auto pt-96 pb-40 flex justify-between">
+        <div>
+          <div class="flex items-center w-56 text-black">
+            <img src="c1-assets/logo-footer.png" alt="">
+            <p class="text-2xl">Browse<span class="text-[#FFDC26]">4</span>Pets</p>
+          </div>
+          <p class="sora max-w-sm pt-5 text-xl text-[rgb(17,17,17,70%)]">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+        </div>
+        <div>
+          <ul class="sora text-xl text-black">
+            <li>Find a pet</li>
+            <li class="my-5">Breeds</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+        <div class="text-black mt-16">
+          <p class="sora text-xl">Follow Us</p>
+          <div>
+            <ul class="flex justify-between text-xl w-44">
+              <li><a href=""><img src="c1-assets/" alt=""><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
