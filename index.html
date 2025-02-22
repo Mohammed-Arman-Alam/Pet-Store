@@ -40,14 +40,14 @@
             <img src="c1-assets/logo-header.png" alt="">
             <p class="text-2xl">Browse<span class="text-[#FFDC26]">4</span>Pets</p>
           </div>
-          <div>
-            <ul class="flex text-xl w-80 justify-between">
+          <div class="hidden sm:inline">
+            <ul class="text-xl w-80 justify-between flex ">
               <li><a href="">Find a pet</a></li>
               <li><a href="">Breeds</a></li>
               <li><a href="">Contact us</a></li>
             </ul>
           </div>
-          <div>
+          <div class="hidden sm:inline">
             <ul class="flex text-xl items-center w-80 justify-between">
               <li><i class="fa-regular fa-bell"></i></li>
               <li><i class="fa-solid fa-magnifying-glass"></i></li>
@@ -55,20 +55,22 @@
               <li><button class="btn btn-warning text-xl">Register</button></li>
             </ul>
           </div>
+          <div class="text-xl mr-5 sm:hidden"><i class="fa-solid fa-bars"></i></div>
         </div>
       </nav>
-      <div class="max m-auto">
-          <div class="bg-transparent">
-            <h2 class="adlam text-6xl text-[#000000] mt-28">Pamper Your Pet,<br>Because They Deserve <br> the Best</h2>
-            <p class="text-xl sora max-w-2xl text-[rgb(17,17,17,70%)] my-9">Discover a world of treats,toys,and essential handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+      <hr class="text-black sm:hidden">
+      <div class="max m-auto height">
+          <div class="bg-transparent"> 
+            <h2 class="adlam text-6xl text-[#000000] mt-5 sm:mt-28">Pamper Your Pet,<br>Because They Deserve <br> the Best</h2>
+            <p class="text-xl sora w-full text-[rgb(17,17,17,70%)] sm: max-w-2xl my-9">Discover a world of treats,toys,and essential handpicked for your furry friends. Shop now and make tails wag with joy!</p>
             <button class="btn btn-warning text-xl sora">Find a pet</button>
-            <div class="max  bg-[url(c1-assets/cat-big.png)] bg-cover -mt-96 mb-28 ml-16 height"></div>
-          </div>  
+          </div>
+          <div class="bg-[url(c1-assets/cat-big.png)] bg-cover -mt-32 w-full h-64 sm:h-full sm:-mt-96"></div>  
       </div>  
     </header>
     <main>
       <section>
-        <div class="max m-auto my-44">
+        <div class="max m-auto -my-20 sm:my-44">
           <h2 class="adlam text-4xl my-8 ml-2">Browse By Categories</h2>
           <div class="flex justify-between flex-wrap">
             <div class="bg-[#F9DF8A] h-64 w-52 rounded-xl text-center">
@@ -128,12 +130,12 @@
           </div>      
         </div>
       </section>
-      <section class="w-full bg-[#FFF9F4]">
-        <div class="max m-auto py-24">
+      <section class="w-full sm:bg-[#FFF9F4]">
+        <div class="max m-auto py-24 ">
           <div>
             <h2 class="adlam text-4xl py-14">Trending Pet Products</h2>
           </div>
-          <div class="flex justify-between">
+          <div class="flex justify-between flex-wrap">
             <div class="bg-[#F9DF8A] max-w-xl rounded-xl pl-11">
               <h2 class="adlam text-3xl pt-14">T-Shirt For Dogs</h2>
               <p class="sora text-xl max-w-96 mr-8 py-6 text-[rgb(17,17,17, 70%)]">Discover a world of treats, toy and essential handpicked for</p>
@@ -141,7 +143,7 @@
               <img class="-mt-40 ml-48" src="c1-assets/cute-pet-small.png" alt="">
             </div>
             <div class="flex flex-wrap max-w-4xl justify-between">
-              <div class="bg-[#ffffff] w-72 h-32 flex py-6 pl-4 rounded-xl">
+              <div class="bg-[#ffffff] w-52 h-32 flex py-6 pl-4 rounded-xl sm:w-72">
                 <div class="w-20 h-20 bg-[#FFF9F4] rounded-xl mr-3">
                   <img class="h-12 w-12 mt-4 mx-auto" src="c1-assets/pet-couch.png" alt="">
                 </div>
@@ -153,7 +155,7 @@
                   </div>
                 </div>
               </div>
-              <div class="bg-[#ffffff] w-72 h-32 flex py-6 pl-4 rounded-xl">
+              <div class="bg-[#ffffff] w-52 h-32 flex py-6 pl-4 rounded-xl sm:w-72">
                 <div class="w-20 h-20 bg-[#FFF9F4] rounded-xl mr-3">
                   <img class="h-12 w-12 mt-4 mx-auto" src="c1-assets/pet-couch.png" alt="">
                 </div>
@@ -165,7 +167,7 @@
                   </div>
                 </div>
               </div>
-              <div class="bg-[#ffffff] w-72 h-32 flex py-6 pl-4 rounded-xl">
+              <div class="bg-[#ffffff] w-52 h-32 flex py-6 pl-4 rounded-xl sm:w-72">
                 <div class="w-20 h-20 bg-[#FFF9F4] rounded-xl mr-3">
                   <img class="h-12 w-12 mt-4 mx-auto" src="c1-assets/pet-couch.png" alt="">
                 </div>
@@ -177,7 +179,7 @@
                   </div>
                 </div>
               </div>
-              <div class="bg-[#ffffff] w-72 h-32 flex py-6 pl-4 rounded-xl">
+              <div class="bg-[#ffffff] w-52 h-32 flex py-6 pl-4 rounded-xl sm:w-72">
                 <div class="w-20 h-20 bg-[#FFF9F4] rounded-xl mr-3">
                   <img class="h-12 w-12 mt-4 mx-auto" src="c1-assets/pet-couch.png" alt="">
                 </div>
@@ -189,7 +191,7 @@
                   </div>
                 </div>
               </div>
-              <div class="bg-[#ffffff] w-72 h-32 flex py-6 pl-4 rounded-xl">
+              <div class="bg-[#ffffff] w-52 h-32 flex py-6 pl-4 rounded-xl sm:w-72">
                 <div class="w-20 h-20 bg-[#FFF9F4] rounded-xl mr-3">
                   <img class="h-12 w-12 mt-4 mx-auto" src="c1-assets/pet-couch.png" alt="">
                 </div>
@@ -201,7 +203,7 @@
                   </div>
                 </div>
               </div>
-              <div class="bg-[#ffffff] w-72 h-32 flex py-6 pl-4 rounded-xl">
+              <div class="bg-[#ffffff] w-52 h-32 flex py-6 pl-4 rounded-xl sm:w-72">
                 <div class="w-20 h-20 bg-[#FFF9F4] rounded-xl mr-3">
                   <img class="h-12 w-12 mt-4 mx-auto" src="c1-assets/pet-couch.png" alt="">
                 </div>
@@ -213,7 +215,7 @@
                   </div>
                 </div>
               </div>
-              <div class="bg-[#ffffff] w-72 h-32 flex py-6 pl-4 rounded-xl">
+              <div class="bg-[#ffffff] w-52 h-32 flex py-6 pl-4 rounded-xl sm:w-72">
                 <div class="w-20 h-20 bg-[#FFF9F4] rounded-xl mr-3">
                   <img class="h-12 w-12 mt-4 mx-auto" src="c1-assets/pet-couch.png" alt="">
                 </div>
@@ -225,7 +227,7 @@
                   </div>
                 </div>
               </div>
-              <div class="bg-[#ffffff] w-72 h-32 flex py-6 pl-4 rounded-xl">
+              <div class="bg-[#ffffff] w-52 h-32 flex py-6 pl-4 rounded-xl sm:w-72">
                 <div class="w-20 h-20 bg-[#FFF9F4] rounded-xl mr-3">
                   <img class="h-12 w-12 mt-4 mx-auto" src="c1-assets/pet-couch.png" alt="">
                 </div>
@@ -237,7 +239,7 @@
                   </div>
                 </div>
               </div>
-              <div class="bg-[#ffffff] w-72 h-32 flex py-6 pl-4 rounded-xl">
+              <div class="bg-[#ffffff] w-52 h-32 py-6 pl-4 rounded-xl hidden sm:w-72 sm:flex">
                 <div class="w-20 h-20 bg-[#FFF9F4] rounded-xl mr-3">
                   <img class="h-12 w-12 mt-4 mx-auto" src="c1-assets/pet-couch.png" alt="">
                 </div>
@@ -257,7 +259,7 @@
         <div>
           <h2 class="adlam text-4xl pb-10">Everyday low Price</h2>
         </div>
-        <div class="flex justify-between">
+        <div class="flex justify-between flex-wrap">
           <div class="bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-xl flex max-w-3xl">
             <div class="h-56 w-72 my-auto ml-20 text-[#111111]">
               <p class="sora text-xl">Under Price</p>
@@ -266,35 +268,35 @@
               <p class="adlam text-6xl">$7.99</p>
             </div>
             <div>
-              <img src="c1-assets/cute-dog-mid.png" alt="">
+              <img class="pb-10 sm:pb-0" src="c1-assets/cute-dog-mid.png" alt="">
             </div>
           </div>
-          <div class="bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] rounded-xl w-xl flex">
-            <div class="py-12 pl-12 pr-40">
-              <p class="adlam text-3xl w-96 pr-40">T-Shirt for Dogs</p>
+          <div class="bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] rounded-xl flex pb-56 max-w-3xl">
+            <div class="py-12 pl-12 sm:pr-40">
+              <p class="adlam text-3xl w-96 sm:pr-40">T-Shirt for Dogs</p>
               <p class="adlam text-6xl text-[#FFDC26]">$7.99</p>
             </div>
-            <img class="absolute ml-72 mt-20" src="c1-assets/cute-pet-mid.png" alt="">
+            <img class="absolute ml-40 mt-20 h-80 sm:ml-72 sm:h-auto" src="c1-assets/cute-pet-mid.png" alt="">
           </div>
         </div>    
         </div>
       </section>
       <section class="relative mt-20 -mb-72 mx-auto">
-        <div class="max m-auto flex bg-[#FFF9F4] rounded-2xl">
+        <div class="max m-auto sm:flex bg-[#FFF9F4] rounded-2xl">
           <div>
             <img class="py-20 ml-24" src="c1-assets/cute-pet-mid.png" alt="">
           </div>
-          <div class="py-28 pl-24">
+          <div class="sm:py-28 pl-24">
             <p class="adlam text-4xl">Get Awsome News!</p>
             <p class="sora text-xl text-black py-5">Exclusive training tips, ticks, product deals and more.</p>
-            <input class="bg-white h-16 w-96 rounded-ss-lg pl-5" type="email" placeholder="Enter email......"><br>
+            <input class="bg-white h-16 w-72 sm:w-96 rounded-ss-lg pl-5" type="email" placeholder="Enter email......"><br>
             <div class="py-5 text-xl sora"><button class="btn btn-warning py">Subscribe</button></div>
           </div>
         </div>
       </section>
     </main>
     <footer class="bg-[rgb(255,220,38,50%)]">
-      <div class="max m-auto pt-96 pb-40 flex justify-between">
+      <div class="max m-auto pt-96 pb-40 sm:flex justify-between">
         <div>
           <div class="flex items-center w-56 text-black">
             <img src="c1-assets/logo-footer.png" alt="">
@@ -302,7 +304,7 @@
           </div>
           <p class="sora max-w-sm pt-5 text-xl text-[rgb(17,17,17,70%)]">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
         </div>
-        <div>
+        <div class="pt-10 sm:pt-0">
           <ul class="sora text-xl text-black">
             <li>Find a pet</li>
             <li class="my-5">Breeds</li>
